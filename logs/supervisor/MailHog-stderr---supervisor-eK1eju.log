@@ -1,0 +1,117 @@
+2019/07/16 22:31:04 Using in-memory storage
+2019/07/16 22:31:04 [SMTP] Binding to address: 0.0.0.0:1025
+2019/07/16 22:31:04 Serving under http://:1080/
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Starting session
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Received 16 bytes: 'EHLO localhost\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: ESTABLISH] Processing line: EHLO localhost
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'localhost'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: ESTABLISH] In ESTABLISH state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 21 bytes: '250-Hello localhost\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 16 bytes: '250-PIPELINING\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Received 35 bytes: 'MAIL FROM:<www-data@69b4973dbf2d>\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: MAIL] Processing line: MAIL FROM:<www-data@69b4973dbf2d>
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: MAIL] In state 6, got command 'MAIL', args 'FROM:<www-data@69b4973dbf2d>'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: MAIL] In MAIL state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 37 bytes: '250 Sender www-data@69b4973dbf2d ok\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Received 34 bytes: 'RCPT TO:<mailhog@flywheel.local>\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: RCPT] Processing line: RCPT TO:<mailhog@flywheel.local>
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: RCPT] In state 7, got command 'RCPT', args 'TO:<mailhog@flywheel.local>'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: RCPT] In RCPT state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: RCPT] Got RCPT command
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 41 bytes: '250 Recipient mailhog@flywheel.local ok\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Received 6 bytes: 'DATA\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: RCPT] Processing line: DATA
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: RCPT] In RCPT state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: RCPT] Got DATA command, switching to DATA state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Received 862 bytes: 'To: dev-email@flywheel.local\r\nSubject: [Sharyn's Site] Your site has updated to WordPress 5.2.2\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Wed, 17 Jul 2019 05:17:33 +0000\r\nFrom: WordPress <wordpress@sharyns-site.local>\r\nMessage-ID: <d17a09690836766b192720d02c1ede46@sharyns-site.local>\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nHowdy! Your site at http://sharyns-site.local has been updated automatically to WordPress 5.2.2.\r\n\r\nNo further action is needed on your part. For more on version 5.2.2, see the About WordPress screen:\r\nhttp://sharyns-site.local/wp-admin/about.php\r\n\r\nIf you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.\r\nhttps://wordpress.org/support/\r\n\r\nThe WordPress Team\r\n\r\n.\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2019/07/17 05:17:33 Parsing Content from string: 'To: dev-email@flywheel.local
+Subject: [Sharyn's Site] Your site has updated to WordPress 5.2.2
+X-PHP-Originating-Script: 1000:class-phpmailer.php
+Date: Wed, 17 Jul 2019 05:17:33 +0000
+From: WordPress <wordpress@sharyns-site.local>
+Message-ID: <d17a09690836766b192720d02c1ede46@sharyns-site.local>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Howdy! Your site at http://sharyns-site.local has been updated automatically to WordPress 5.2.2.
+
+No further action is needed on your part. For more on version 5.2.2, see the About WordPress screen:
+http://sharyns-site.local/wp-admin/about.php
+
+If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.
+https://wordpress.org/support/
+
+The WordPress Team
+'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Storing message mnkML42Yreynd38grMddYAklyKk6ohf-maoK0EnLlqQ=@mailhog.example
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 80 bytes: '250 Ok: queued as mnkML42Yreynd38grMddYAklyKk6ohf-maoK0EnLlqQ=@mailhog.example\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Received 6 bytes: 'QUIT\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: MAIL] Processing line: QUIT
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Sent 9 bytes: '221 Bye\r\n'
+2019/07/17 05:17:33 [SMTP 127.0.0.1:41060] Session ended
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Starting session
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: INVALID] Started session, switching to ESTABLISH state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 35 bytes: '220 mailhog.example ESMTP MailHog\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Received 16 bytes: 'EHLO localhost\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: ESTABLISH] Processing line: EHLO localhost
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: ESTABLISH] In state 1, got command 'EHLO', args 'localhost'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: ESTABLISH] In ESTABLISH state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: ESTABLISH] Got EHLO command, switching to MAIL state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 21 bytes: '250-Hello localhost\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 16 bytes: '250-PIPELINING\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 16 bytes: '250 AUTH PLAIN\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Received 35 bytes: 'MAIL FROM:<www-data@69b4973dbf2d>\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: MAIL] Processing line: MAIL FROM:<www-data@69b4973dbf2d>
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: MAIL] In state 6, got command 'MAIL', args 'FROM:<www-data@69b4973dbf2d>'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: MAIL] In MAIL state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: MAIL] Got MAIL command, switching to RCPT state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 37 bytes: '250 Sender www-data@69b4973dbf2d ok\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Received 34 bytes: 'RCPT TO:<mailhog@flywheel.local>\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: RCPT] Processing line: RCPT TO:<mailhog@flywheel.local>
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: RCPT] In state 7, got command 'RCPT', args 'TO:<mailhog@flywheel.local>'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: RCPT] In RCPT state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: RCPT] Got RCPT command
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 41 bytes: '250 Recipient mailhog@flywheel.local ok\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Received 6 bytes: 'DATA\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: RCPT] Processing line: DATA
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: RCPT] In state 7, got command 'DATA', args ''
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: RCPT] In RCPT state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: RCPT] Got DATA command, switching to DATA state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 37 bytes: '354 End data with <CR><LF>.<CR><LF>\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Received 520 bytes: 'To: dev-email@flywheel.local\r\nSubject: [Sharyn's Site] New User Registration\r\nX-PHP-Originating-Script: 1000:class-phpmailer.php\r\nDate: Thu, 18 Jul 2019 00:33:57 +0000\r\nFrom: WordPress <wordpress@sharyns-site.local>\r\nMessage-ID: <b056b18784bab45e618927fe1565421b@sharyns-site.local>\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nNew user registration on your site Sharyn's Site:\r\n\r\nUsername: sleff\r\n\r\nEmail: szreadick@gmail.com\r\n\r\n.\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: DATA] Got EOF, storing message and switching to MAIL state
+2019/07/18 00:33:57 Parsing Content from string: 'To: dev-email@flywheel.local
+Subject: [Sharyn's Site] New User Registration
+X-PHP-Originating-Script: 1000:class-phpmailer.php
+Date: Thu, 18 Jul 2019 00:33:57 +0000
+From: WordPress <wordpress@sharyns-site.local>
+Message-ID: <b056b18784bab45e618927fe1565421b@sharyns-site.local>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+New user registration on your site Sharyn's Site:
+
+Username: sleff
+
+Email: szreadick@gmail.com
+'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Storing message O8kO86hzD0AhSq8IZOht7oNTsB3aHy0KfB5pXF5v-tc=@mailhog.example
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 80 bytes: '250 Ok: queued as O8kO86hzD0AhSq8IZOht7oNTsB3aHy0KfB5pXF5v-tc=@mailhog.example\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Received 6 bytes: 'QUIT\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: MAIL] Processing line: QUIT
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: MAIL] In state 6, got command 'QUIT', args ''
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] [PROTO: MAIL] Got QUIT verb, staying in MAIL state
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Sent 9 bytes: '221 Bye\r\n'
+2019/07/18 00:33:57 [SMTP 127.0.0.1:55256] Session ended

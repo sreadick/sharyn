@@ -1,0 +1,44 @@
+[25-May-2019 03:25:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:26:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:26:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:26:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:26:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:26:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:26:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:26:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:26:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 13
+[25-May-2019 03:51:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 13
+[25-May-2019 03:51:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 13
+[25-May-2019 03:52:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 13
+[25-May-2019 03:52:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 13
+[25-May-2019 03:52:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 13
+[25-May-2019 03:52:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 13
+[25-May-2019 03:59:08 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /app/public/wp-content/themes/sharyn_theme/header.php on line 14
+[25-May-2019 04:22:17 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /app/public/wp-content/themes/sharyn_theme/page.php on line 17
+[25-May-2019 04:24:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function () in /app/public/wp-content/themes/sharyn_theme/page.php:7
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/sharyn_theme/page.php on line 7
+[25-May-2019 04:24:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function about-me() in /app/public/wp-content/themes/sharyn_theme/page.php:7
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/sharyn_theme/page.php on line 7
+[16-Jul-2019 23:07:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/sharyn_theme/header.php on line 23
+[16-Jul-2019 23:08:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/sharyn_theme/header.php on line 17
+[16-Jul-2019 23:37:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/sharyn_theme/header.php on line 19
+[16-Jul-2019 23:42:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 16
+[16-Jul-2019 23:47:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/sharyn_theme/header.php on line 17
+[16-Jul-2019 23:49:35 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 15
+[16-Jul-2019 23:55:32 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 21
+[16-Jul-2019 23:55:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/header.php on line 21
+[18-Jul-2019 00:43:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/sharyn_theme/page.php on line 35
+[18-Jul-2019 00:44:51 UTC] PHP Recoverable fatal error:  Object of class WP_User could not be converted to string in /app/public/wp-content/themes/sharyn_theme/page.php on line 38
+[18-Jul-2019 05:23:50 UTC] PHP Parse error:  syntax error, unexpected '','' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /app/public/wp-content/themes/sharyn_theme/page.php on line 41
+[18-Jul-2019 05:24:06 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/sharyn_theme/page.php on line 41
+[18-Jul-2019 05:24:06 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/sharyn_theme/page.php on line 41
